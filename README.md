@@ -49,4 +49,4 @@ To install and run the app respectively, run the following command:</p><h5>Steps
 <hr><ul>
 <li>An assignment</li>
 </ul><h2>Contact</h2>
-<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linked.com/in/harsh2001"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://www.github.com/j-harsh"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/harsh2001"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://www.github.com/j-harsh"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
