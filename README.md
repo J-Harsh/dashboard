@@ -1,6 +1,8 @@
 <h1>Social Dashboard</h1>
 <h3>Deployed link :</h3> <href>https://j-harsh.github.io/dashboard/</href>
-<hr><p>This is a dashboard application built using React and Vite, which displays a dashboard fetched from an API using axios and a login page(with no functionality) . The app features client-side routing and responsive design.</p><h2>Technologies Used</h2>
+<hr><p>This is a dashboard application built using React and Vite, which displays a dashboard fetched from an API using axios and a login page(with no functionality) . The app features client-side routing and responsive design.</p>
+<h3>The mock api only allows for 200 req/day. So there might be scnenario where the data limit just exhausts. Please use carefully 😁 </h3>
+<h2>Technologies Used</h2>
 <hr><ul>
 <li>HTML</li>
 </ul><ul>
