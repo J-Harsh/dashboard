@@ -1,4 +1,5 @@
 <h1>Social Dashboard</h1>
+<h3>Deployed link :</h3> <href>https://j-harsh.github.io/login</href>
 <hr><p>This is a dashboard application built using React and Vite, which displays a list of items fetched from an API. The app features client-side routing and responsive design.</p><h2>General Information</h2>
 <hr><ul>
 <li>Made as an assignment</li>
