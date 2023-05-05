@@ -1,9 +1,6 @@
 <h1>Social Dashboard</h1>
 <h3>Deployed link :</h3> <href>https://j-harsh.github.io/dashboard/</href>
-<hr><p>This is a dashboard application built using React and Vite, which displays a list of items fetched from an API. The app features client-side routing and responsive design.</p><h2>General Information</h2>
-<hr><ul>
-<li>Made as an assignment</li>
-</ul><h2>Technologies Used</h2>
+<hr><p>This is a dashboard application built using React and Vite, which displays a list of items fetched from an API. The app features client-side routing and responsive design.</p><h2>Technologies Used</h2>
 <hr><ul>
 <li>HTML</li>
 </ul><ul>
@@ -37,6 +34,9 @@
 <li>Used axios for GET requests on a mockeroo's fake api.</li>
 </ul><ul>
 <li>Lazy Loading</li>
+</ul><h2>General Information</h2>
+<hr><ul>
+<li>Made as an assignment</li>
 </ul><h2>Setup</h2>
 <hr><p>Installation
 To install and run the app respectively, run the following command:</p><h5>Steps</h5><ul>
