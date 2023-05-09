@@ -12,11 +12,10 @@ const Sidebar = () => {
     const [active, setActive] = useState(false)
     return (
         <div className='sideBar' >
-            <div className={`sideBarcontainer ${active ? 'active' : ''} `}  >
+            <div className={`sideBarcontainer ${active ? 'active' : ''} `} >
 
                 <i className='hamburger' >
-                    <Hamburger toggled={active} toggle={setActive} size={20} duration={0.8} color="#FFFFFF" rounded />
-                </i>
+                    <Hamburger toggled={active} toggle={setActive} size={20} duration={0.8} color="#FFFFFF" rounded /></i>
 
                 <div className='section'>
                     {active ? <h1 className='mont' style={{ fontSize: "36px", lineHeight: "43.88px" }} >Board.</h1> : <h1 className='mont' style={{ fontSize: "36px", lineHeight: "43.88px" }}>B.</h1>}
