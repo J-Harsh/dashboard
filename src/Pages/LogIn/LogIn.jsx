@@ -33,7 +33,7 @@ const LogIn = () => {
     signInWithPopup(auth, googleProvider)
     .then((res) => {
       navigate("/dashboard")
-      console.log(res.user);
+      
     })
     .catch((error) => {
       console.error(error);
@@ -46,7 +46,7 @@ const LogIn = () => {
     signInWithPopup(auth, githubProvider )
     .then((res) => {
       navigate("/dashboard")
-      console.log(res.user);
+      
     })
     .catch((error) => {
       console.error(error);

@@ -36,6 +36,8 @@
 </ul><ul>
 <li>recharts</li>
 </ul><ul>
+<li>Firebas</li>
+</ul><ul>
 <li>Scss (because it is the best &lt;3)</li>
 </ul><h2>General Information</h2>
 <hr><ul>
