@@ -8,7 +8,7 @@
 </ul><ul>
 <li>Since the design of any mobile devices were not given I abstained from using any media queries,as making an app responsive is not the same as re-writing it with media-queries</li>
 </ul><ul>
-<li>Since I do not have any knowledge of next-auth. I did not use/include it in the project. Instead to showcase my skill in working with custom authorizations and ract-router-dom. I used protected routes.</li>
+<li>Since I do not have any knowledge of next-auth. I did not use/include it in the project. Instead to showcase my skill in working with authorizations and ract-router-dom. I used protected routes along with firebase for authentication purposes.</li>
 </ul><ul>
 <li>Used an external library called recharts, as other libraries did not have a great documentation or customization options. Making custom charts over canvas is a tough process therefore resorted to using an external library.</li>
 </ul><ul>
