@@ -1,28 +1,35 @@
-import { createContext, useContext, useReducer } from 'react'
+import { auth } from './firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import React, { useContext, createContext, useState, useEffect } from 'react'
 
-const initilaState = { auth : false};
+const Authorization = createContext();
 
-const authContext = createContext(initilaState);
+const AuthContext = ({ children }) => {
 
-export function reducer(state, action){
-    switch (action.type){
-        case 'login':
-            return { auth : true };
-        case 'logout':
-            return { auth : false };
-        default:
-            throw new Error()
-    }
-}
+    const [user, setUser] = useState(null);
 
+    useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                setUser(user);
+                localStorage.setItem("isUserSignedIn", true);
+            }
+            else {
+                setUser(null);
+                localStorage.removeItem("isUserSignedIn");
+            };
+        });
+    }, [auth]);
 
-export function AuthProvider({ children }){
+    return (
+        <Authorization.Provider value={user}>
+            {children}
+        </Authorization.Provider>
+    );
+};
 
-    const [authed, dispatch] = useReducer(reducer, initilaState)
+export default AuthContext;
 
-    return <authContext.Provider value={[authed, dispatch]}>{children}</authContext.Provider>
-}
-
-export default function AuthConsumer(){
-    return useContext(authContext)
-}
+export const AuthState = () => {
+    return useContext(Authorization);
+};
